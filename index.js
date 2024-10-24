@@ -20,7 +20,7 @@ import colors from "colors";
 
 import cors from "cors"
 const corsOption = {
-    origin: process.env.CLIENT_URL,
+    origin: "https://whatsgram2-0-front-1.onrender.com",
     methods : ["GET","POST","PUT","PATCH","DELETE"],
 }
 app.use(cors(corsOption));
