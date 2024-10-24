@@ -33,9 +33,9 @@ import userRoute from "./route/user.route.js"
 
 // testing ignore
 
-// app.get("/", (req, res) => {
-//     res.send("This is in Testing!");
-// })
+app.get("/", (req, res) => {
+    res.send("Hello World!");
+})
 
 // till here
 
