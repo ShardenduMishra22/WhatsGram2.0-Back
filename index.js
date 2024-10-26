@@ -34,7 +34,7 @@ import userRoute from "./route/user.route.js"
 // testing ignore
 
 app.get("/", (req, res) => {
-    res.send("Hello World!");
+    res.send(`The App will Work Now Thanks!! Click Here To Use The Applciation - ${https://whatsgram2-0-front-1.onrender.com/}`);
 })
 
 // till here
